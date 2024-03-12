@@ -1,0 +1,20 @@
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+void nTriangle(int n) {
+	// Write your code here.
+	if(n<1 || n>25){
+		return;
+	}else{
+		for(int i=0;i<=n;i++){
+			for(int j=1;j<=i;j++){
+				cout<<i<<" ";
+			}
+			cout<<'\n';
+		}
+	}
+}
+int main(){
+    int x=3;
+    nTriangle(x);
+}
