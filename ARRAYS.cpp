@@ -1,3 +1,7 @@
+#include <iostream>
+#include <stdlib.h>
+using namespace std;
+void func(int A[],int n){
     for(int i=0;i<n;i++){
         cout<<A[i]<<endl;
     }
@@ -14,3 +18,6 @@ int main(){
     func(arr,n);
     return 0;
 }
+
+
+
